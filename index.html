@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iron Fence Cyber Solutions - Cybersecurity Experts</title>
+    <meta name="description" content="Professional cybersecurity training, penetration testing, digital forensics, and website security services.">
+    <meta name="keywords" content="cybersecurity, penetration testing, digital forensics, security training, website security">
+    
+    <!-- Preload critical assets -->
+    <link rel="preload" href="styles/main.css" as="style">
+    <link rel="preload" href="styles/animations.css" as="style">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/animations.css">
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen" class="loading-screen">
+        <div class="loading-content">
+            <div class="cyber-logo">
+                <div class="logo-text">Iron Fence</div>
+                <div class="logo-subtext">Cyber Solutions</div>
+            </div>
+            <div class="loading-bar">
+                <div class="loading-progress"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="assets/logo.svg" alt="Iron Fence Cyber Solutions" class="logo-img">
+                <span class="logo-text">Iron Fence</span>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link" data-section="home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link" data-section="about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#services" class="nav-link" data-section="services">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link" data-section="contact">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#tools" class="nav-link" data-section="tools">Tools</a>
+                </li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Home Section -->
+        <section id="home" class="section home-section active">
+            <div class="cyber-bg">
+                <div class="matrix-rain"></div>
+                <div class="grid-overlay"></div>
+            </div>
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero-title">
+                        <span class="text-glow">Securing</span> Your Digital
+                        <span class="text-highlight">Fortress</span>
+                    </h1>
+                    <p class="hero-subtitle">
+                        Professional cybersecurity solutions, penetration testing, and digital forensics
+                        to protect your organization from evolving cyber threats.
+                    </p>
+                    <div class="hero-buttons">
+                        <button class="btn btn-primary" data-section="services">
+                            <i class="fas fa-shield-alt"></i>
+                            Our Services
+                        </button>
+                        <button class="btn btn-secondary" data-section="contact">
+                            <i class="fas fa-envelope"></i>
+                            Get Quote
+                        </button>
+                    </div>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <div class="stat-number" data-count="500">0</div>
+                        <div class="stat-label">Security Assessments</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-count="99">0</div>
+                        <div class="stat-label">% Success Rate</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-count="24">0</div>
+                        <div class="stat-label">Hour Response</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section about-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">About Iron Fence</h2>
+                    <p class="section-subtitle">Your trusted cybersecurity partner</p>
+                </div>
+                <div class="about-content">
+                    <div class="about-text">
+                        <h3>Defending Digital Frontiers</h3>
+                        <p>
+                            Iron Fence Cyber Solutions stands at the forefront of cybersecurity excellence,
+                            providing comprehensive protection against the ever-evolving landscape of digital threats.
+                            Our team of certified security professionals brings decades of combined experience
+                            in safeguarding organizations across industries.
+                        </p>
+                        <div class="certifications">
+                            <div class="cert-item">
+                                <i class="fas fa-certificate"></i>
+                                <span>CISSP Certified</span>
+                            </div>
+                            <div class="cert-item">
+                                <i class="fas fa-certificate"></i>
+                                <span>CEH Certified</span>
+                            </div>
+                            <div class="cert-item">
+                                <i class="fas fa-certificate"></i>
+                                <span>GCIH Certified</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-features">
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <h4>Expert Team</h4>
+                            <p>Certified cybersecurity professionals with real-world experience</p>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <h4>24/7 Support</h4>
+                            <p>Round-the-clock monitoring and incident response capabilities</p>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <i class="fas fa-chart-line"></i>
+                            </div>
+                            <h4>Proven Results</h4>
+                            <p>Track record of successfully protecting organizations</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="section services-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Our Services</h2>
+                    <p class="section-subtitle">Comprehensive cybersecurity solutions</p>
+                </div>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-bug"></i>
+                        </div>
+                        <h3>Pen Testing</h3>
+                        <p>
+                            Comprehensive penetration testing services to identify vulnerabilities 
+                            before malicious actors do. Our ethical hackers simulate real-world 
+                            attacks to test your defenses and provide actionable remediation guidance.
+                        </p>
+                        <ul class="service-features">
+                            <li>Network Penetration Testing</li>
+                            <li>Web Application Testing</li>
+                            <li>Wireless Security Assessment</li>
+                            <li>Social Engineering Tests</li>
+                        </ul>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <h3>Cyber Security Awareness Training</h3>
+                        <p>
+                            Interactive training programs to educate your team on the latest
+                            cybersecurity threats and best practices. Build a human firewall
+                            through comprehensive security awareness education.
+                        </p>
+                        <ul class="service-features">
+                            <li>Phishing Simulation Campaigns</li>
+                            <li>Security Awareness Workshops</li>
+                            <li>Incident Response Training</li>
+                            <li>Compliance Training Programs</li>
+                        </ul>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                        <h3>Bug Hunting</h3>
+                        <p>
+                            Professional bug bounty and vulnerability research services to 
+                            discover security flaws in your applications and systems before 
+                            they can be exploited by malicious actors.
+                        </p>
+                        <ul class="service-features">
+                            <li>Web Application Bug Hunting</li>
+                            <li>Mobile App Security Testing</li>
+                            <li>API Vulnerability Research</li>
+                            <li>Zero-Day Discovery</li>
+                        </ul>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-crosshairs"></i>
+                        </div>
+                        <h3>Attack Surface Assessment</h3>
+                        <p>
+                            Comprehensive analysis of your organization's digital footprint
+                            to identify and reduce potential attack vectors. Map and secure
+                            all entry points that attackers could exploit.
+                        </p>
+                        <ul class="service-features">
+                            <li>External Asset Discovery</li>
+                            <li>Shadow IT Identification</li>
+                            <li>Exposed Service Analysis</li>
+                            <li>Risk Prioritization Matrix</li>
+                        </ul>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-network-wired"></i>
+                        </div>
+                        <h3>Network Vulnerability Assessment</h3>
+                        <p>
+                            Thorough evaluation of your network infrastructure to identify
+                            security weaknesses and configuration issues. Comprehensive
+                            scanning and analysis of internal and external networks.
+                        </p>
+                        <ul class="service-features">
+                            <li>Network Device Scanning</li>
+                            <li>Port and Service Analysis</li>
+                            <li>Configuration Review</li>
+                            <li>Remediation Roadmap</li>
+                        </ul>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fab fa-wordpress"></i>
+                        </div>
+                        <h3>WordPress Assessment</h3>
+                        <p>
+                            Specialized security assessment for WordPress websites and
+                            applications. Comprehensive evaluation of themes, plugins,
+                            configurations, and custom code for security vulnerabilities.
+                        </p>
+                        <ul class="service-features">
+                            <li>Plugin & Theme Security Review</li>
+                            <li>WordPress Core Assessment</li>
+                            <li>Configuration Hardening</li>
+                            <li>Malware Detection & Cleanup</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section contact-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Get In Touch</h2>
+                    <p class="section-subtitle">Ready to secure your digital assets?</p>
+                </div>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>Contact Information</h3>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <strong>Phone</strong>
+                                <p>+1 (555) 123-CYBER</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <strong>Email</strong>
+                                <p>info@ironfencecybersolutions.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <strong>Address</strong>
+                                <p>123 Security Boulevard<br>Cyber City, CC 12345</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <strong>Business Hours</strong>
+                                <p>24/7 Emergency Response<br>Mon-Fri 9AM-6PM (Consultations)</p>
+                            </div>
+                        </div>
+                    </div>
+                    <form class="contact-form" id="contact-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="firstName">First Name *</label>
+                                <input type="text" id="firstName" name="firstName" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="lastName">Last Name *</label>
+                                <input type="text" id="lastName" name="lastName" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="company">Company</label>
+                            <input type="text" id="company" name="company">
+                        </div>
+                        <div class="form-group">
+                            <label for="service">Service Interest</label>
+                            <select id="service" name="service">
+                                <option value="">Select a service</option>
+                                <option value="training">Cybersecurity Training</option>
+                                <option value="pentesting">Penetration Testing</option>
+                                <option value="forensics">Digital Forensics</option>
+                                <option value="website">Website Security</option>
+                                <option value="consultation">General Consultation</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-paper-plane"></i>
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tools Section -->
+        <section id="tools" class="section tools-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Security Tools</h2>
+                    <p class="section-subtitle">Professional cybersecurity utilities</p>
+                </div>
+                <div class="tools-grid">
+                    <div class="tool-card">
+                        <div class="tool-header">
+                            <i class="fas fa-key"></i>
+                            <h3>Password Strength Checker</h3>
+                        </div>
+                        <div class="tool-content">
+                            <input type="password" id="password-input" placeholder="Enter password to check">
+                            <div class="strength-meter">
+                                <div class="strength-bar" id="strength-bar"></div>
+                            </div>
+                            <div class="strength-text" id="strength-text">Enter a password</div>
+                            <div class="password-tips" id="password-tips"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="tool-card">
+                        <div class="tool-header">
+                            <i class="fas fa-calculator"></i>
+                            <h3>Risk Calculator</h3>
+                        </div>
+                        <div class="tool-content">
+                            <div class="risk-inputs">
+                                <label>
+                                    Likelihood (1-5):
+                                    <input type="range" id="likelihood" min="1" max="5" value="3">
+                                    <span id="likelihood-value">3</span>
+                                </label>
+                                <label>
+                                    Impact (1-5):
+                                    <input type="range" id="impact" min="1" max="5" value="3">
+                                    <span id="impact-value">3</span>
+                                </label>
+                            </div>
+                            <div class="risk-result">
+                                <div class="risk-score" id="risk-score">Medium Risk</div>
+                                <div class="risk-matrix" id="risk-matrix"></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="tool-card">
+                        <div class="tool-header">
+                            <i class="fas fa-network-wired"></i>
+                            <h3>IP Information</h3>
+                        </div>
+                        <div class="tool-content">
+                            <input type="text" id="ip-input" placeholder="Enter IP address">
+                            <button class="btn btn-small" id="lookup-btn">Lookup</button>
+                            <div class="ip-results" id="ip-results"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="tool-card">
+                        <div class="tool-header">
+                            <i class="fas fa-shield-alt"></i>
+                            <h3>Security Checklist</h3>
+                        </div>
+                        <div class="tool-content">
+                            <div class="checklist" id="security-checklist">
+                                <div class="checklist-item">
+                                    <input type="checkbox" id="check1">
+                                    <label for="check1">Use strong, unique passwords</label>
+                                </div>
+                                <div class="checklist-item">
+                                    <input type="checkbox" id="check2">
+                                    <label for="check2">Enable two-factor authentication</label>
+                                </div>
+                                <div class="checklist-item">
+                                    <input type="checkbox" id="check3">
+                                    <label for="check3">Keep software updated</label>
+                                </div>
+                                <div class="checklist-item">
+                                    <input type="checkbox" id="check4">
+                                    <label for="check4">Regular data backups</label>
+                                </div>
+                                <div class="checklist-item">
+                                    <input type="checkbox" id="check5">
+                                    <label for="check5">Use reputable antivirus</label>
+                                </div>
+                            </div>
+                            <div class="checklist-progress">
+                                <div class="progress-bar">
+                                    <div class="progress-fill" id="checklist-progress"></div>
+                                </div>
+                                <span id="checklist-percentage">0%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Iron Fence Cyber Solutions</h4>
+                    <p>Protecting your digital assets with cutting-edge cybersecurity solutions.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#services">Cybersecurity Training</a></li>
+                        <li><a href="#services">Penetration Testing</a></li>
+                        <li><a href="#services">Digital Forensics</a></li>
+                        <li><a href="#services">Website Security</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#tools">Security Tools</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p><i class="fas fa-phone"></i> +1 (555) 123-CYBER</p>
+                    <p><i class="fas fa-envelope"></i> info@ironfencecyber.com</p>
+                    <p><i class="fas fa-clock"></i> 24/7 Emergency Response</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Iron Fence Cyber Solutions. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/tools.js"></script>
+    
+    <!-- Simple navigation fix -->
+    <script>
+        // Simple fallback navigation if main script fails
+        document.addEventListener('DOMContentLoaded', function() {
+            // Show home section by default
+            const homeSection = document.getElementById('home');
+            if (homeSection) {
+                homeSection.classList.add('active');
+            }
+            
+            // Add click handlers to navigation
+            const navLinks = document.querySelectorAll('.nav-link');
+            navLinks.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const targetSection = this.getAttribute('data-section');
+                    
+                    // Hide all sections
+                    document.querySelectorAll('.section').forEach(section => {
+                        section.classList.remove('active');
+                    });
+                    
+                    // Show target section
+                    const target = document.getElementById(targetSection);
+                    if (target) {
+                        target.classList.add('active');
+                    }
+                    
+                    // Update nav active state
+                    navLinks.forEach(navLink => navLink.classList.remove('active'));
+                    this.classList.add('active');
+                });
+            });
+            
+            // Add click handlers to buttons with data-section
+            document.querySelectorAll('[data-section]').forEach(button => {
+                if (!button.classList.contains('nav-link')) {
+                    button.addEventListener('click', function(e) {
+                        e.preventDefault();
+                        const targetSection = this.getAttribute('data-section');
+                        
+                        // Hide all sections
+                        document.querySelectorAll('.section').forEach(section => {
+                            section.classList.remove('active');
+                        });
+                        
+                        // Show target section
+                        const target = document.getElementById(targetSection);
+                        if (target) {
+                            target.classList.add('active');
+                        }
+                        
+                        // Update nav active state
+                        navLinks.forEach(navLink => {
+                            navLink.classList.remove('active');
+                            if (navLink.getAttribute('data-section') === targetSection) {
+                                navLink.classList.add('active');
+                            }
+                        });
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
