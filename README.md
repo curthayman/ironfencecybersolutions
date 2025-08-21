@@ -162,13 +162,12 @@ This project is proprietary software for Iron Fence Cyber Solutions.
 
 ## 🤝 Contributing
 
-This is a business website project. For modifications or enhancements, please contact the development team.
+This is a business website project. For modifications or enhancements, please contact the me!
 
 ## 📞 Support
 
 For technical support or questions about this website:
-- Email: info@ironfencecyber.com
-- Phone: +1 (555) 123-CYBER
+- Email: info@ironfencecybersolutions.com
 
 ---
 
